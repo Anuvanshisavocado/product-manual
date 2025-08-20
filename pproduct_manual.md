@@ -2,78 +2,62 @@
 marp: true
 theme: custom-theme
 paginate: true
-header: 'Product Documentation: API v2.0'
-footer: '© 2025 Software Co. | Contact: 23f3002037@ds.study.iitm.ac.in'
+style: |
+  /* Custom theme CSS */
+  section {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #004477;
+  }
+  h1, h2, h3 {
+    color: #0077cc;
+  }
+  /* Footer styling for email */
+  footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #888888;
+  }
 ---
+
+<!-- Custom theme definition: this must be in a separate CSS file if needed, here inline for simplicity -->
 
 # Product Documentation
-## API Version 2.0
-**A Guide for Developers**
+
+Presented by: Technical Writing Team  
+Email: 23f3002037@ds.study.iitm.ac.in
+
+<footer>23f3002037@ds.study.iitm.ac.in</footer>
 
 ---
 
-<style>
-:root {
-  --color-background: #f0f4f8;
-  --color-foreground: #2c3e50;
-  --color-highlight: #3498db;
-}
-h1, h2 {
-  color: var(--color-highlight);
-  border-bottom: 2px solid currentColor;
-}
-section {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-</style>
+<!-- Slide with background image -->
 
-## Agenda
+![bg right:40%](https://picsum.photos/800/600?grayscale)
 
-1.  **Introduction**: Core Concepts
-2.  **Authentication**: Secure Access
-3.  **Endpoints**: API Reference
-4.  **Performance**: Algorithmic Complexity
-5.  **Q&A**
+# Introduction
+
+Welcome to the product documentation presentation.
+
+<footer>23f3002037@ds.study.iitm.ac.in</footer>
 
 ---
 
-backgroundImage: url("https://i.imgur.com/gY9Q0s5.jpg")
-backgroundSize: cover
-class: invert
+# Algorithm Complexity
 
-## Our Core Philosophy
-**Simplicity. Scalability. Security.**
+The time complexity of the main algorithm is described by the following formula:
 
----
+$$ T(n) = O(n \log n) $$
 
-<style scoped>
-section.invert {
-  color: #fff;
-  text-shadow: 2px 2px 8px #000;
-}
-section.invert h2 {
-    color: #fff;
-    border-bottom-color: #fff;
-}
-</style>
-
-## Algorithmic Complexity
-
-Our sorting algorithm's performance is crucial for handling large datasets efficiently.
-
-The average time complexity is described by the following equation:
-$$
-O(n \log n)
-$$
-This ensures that the system remains responsive even as data volume grows, avoiding common $O(n^2)$ bottlenecks.
+<footer>23f3002037@ds.study.iitm.ac.in</footer>
 
 ---
 
-## Thank You
+# Features
 
-**Questions?**
+- Easy version control
+- Multiple export formats
+- Clean and maintainable Markdown
 
-For further details, please contact:
-**23f3002037@ds.study.iitm.ac.in**
+<footer>23f3002037@ds.study.iitm.ac.in</footer>
