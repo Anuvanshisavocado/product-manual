@@ -1,4 +1,4 @@
----
+------
 marp: true
 theme: custom-theme
 paginate: true
@@ -6,7 +6,6 @@ header: 'Product Documentation: API v2.0'
 footer: '© 2025 Software Co. | Contact: 23f3002037@ds.study.iitm.ac.in'
 ---
 
-<!-- _class: lead -->
 # Product Documentation
 ## API Version 2.0
 **A Guide for Developers**
@@ -39,13 +38,8 @@ section {
 5.  **Q&A**
 
 ---
----
-# FINAL CORRECTION: Using your provided image URL directly
-backgroundImage: url('https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/dachshund.jpg?crop=1.00xw:0.668xh;0,0.260xh&resize=980:*')
-backgroundSize: cover
-class: invert
----
 
+---
 ## Our Core Philosophy
 **Simplicity. Scalability. Security.**
 
