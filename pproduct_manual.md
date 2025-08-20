@@ -1,4 +1,4 @@
----
+------
 marp: true
 theme: custom-theme
 paginate: true
@@ -18,12 +18,10 @@ footer: '© 2025 Software Co. | Contact: 23f3002037@ds.study.iitm.ac.in'
   --color-foreground: #2c3e50;
   --color-highlight: #3498db;
 }
-
 h1, h2 {
   color: var(--color-highlight);
   border-bottom: 2px solid currentColor;
 }
-
 section {
     background-color: var(--color-background);
     color: var(--color-foreground);
@@ -40,9 +38,9 @@ section {
 5.  **Q&A**
 
 ---
-
 ---
-backgroundImage: url('https://images.unsplash.com/photo-1554189097-90d3b64ea1b2')
+# FINAL CORRECTION: Using a self-contained gradient for the background
+backgroundImage: "linear-gradient(to right, #434343, #000000)"
 backgroundSize: cover
 class: invert
 ---
@@ -54,10 +52,9 @@ class: invert
 
 <style scoped>
 section.invert {
-  color: #fff; /* Set text color to white for readability on dark images */
+  color: #fff;
   text-shadow: 1px 1px 5px black;
 }
-
 section.invert h2 {
     color: #fff;
     border-bottom-color: #fff;
@@ -69,11 +66,9 @@ section.invert h2 {
 Our sorting algorithm's performance is crucial for handling large datasets efficiently.
 
 The average time complexity is described by the following equation:
-
 $$
 O(n \log n)
 $$
-
 This ensures that the system remains responsive even as data volume grows, avoiding common $O(n^2)$ bottlenecks.
 
 ---
