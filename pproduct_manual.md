@@ -1,4 +1,4 @@
-------
+---
 marp: true
 theme: custom-theme
 paginate: true
@@ -39,7 +39,10 @@ section {
 
 ---
 
----
+backgroundImage: url("https://i.imgur.com/gY9Q0s5.jpg")
+backgroundSize: cover
+class: invert
+
 ## Our Core Philosophy
 **Simplicity. Scalability. Security.**
 
