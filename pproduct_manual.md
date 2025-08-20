@@ -1,4 +1,4 @@
-------
+---
 marp: true
 theme: custom-theme
 paginate: true
@@ -6,6 +6,7 @@ header: 'Product Documentation: API v2.0'
 footer: '© 2025 Software Co. | Contact: 23f3002037@ds.study.iitm.ac.in'
 ---
 
+<!-- _class: lead -->
 # Product Documentation
 ## API Version 2.0
 **A Guide for Developers**
@@ -39,8 +40,8 @@ section {
 
 ---
 ---
-# FINAL CORRECTION: Using a self-contained gradient for the background
-backgroundImage: "linear-gradient(to right, #434343, #000000)"
+# FINAL CORRECTION: Using your provided image URL directly
+backgroundImage: url('https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/dachshund.jpg?crop=1.00xw:0.668xh;0,0.260xh&resize=980:*')
 backgroundSize: cover
 class: invert
 ---
@@ -53,7 +54,7 @@ class: invert
 <style scoped>
 section.invert {
   color: #fff;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 2px 2px 8px #000;
 }
 section.invert h2 {
     color: #fff;
