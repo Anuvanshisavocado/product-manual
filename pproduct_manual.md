@@ -6,20 +6,12 @@ header: 'Product Documentation: API v2.0'
 footer: '© 2025 Software Co. | Contact: 23f3002037@ds.study.iitm.ac.in'
 ---
 
-<!--
-_class: lead
--->
-
 # Product Documentation
 ## API Version 2.0
 **A Guide for Developers**
 
 ---
 
-<!--
-Here we define the custom theme for the presentation.
-We are setting a base color, header styles, and background color.
--->
 <style>
 :root {
   --color-background: #f0f4f8;
@@ -49,16 +41,11 @@ section {
 
 ---
 
-<!--
-This slide uses a background image and custom styling to make the text readable.
-The 'invert' class is defined in the global style directive below.
--->
-
-<!--
-_class: invert
-_background-image: url('https://picsum.photos/1280/720')
-_background-size: cover
--->
+---
+backgroundImage: url('https://images.unsplash.com/photo-1554189097-90d3b64ea1b2')
+backgroundSize: cover
+class: invert
+---
 
 ## Our Core Philosophy
 **Simplicity. Scalability. Security.**
@@ -67,11 +54,13 @@ _background-size: cover
 
 <style scoped>
 section.invert {
-  filter: invert(100%) hue-rotate(180deg);
+  color: #fff; /* Set text color to white for readability on dark images */
+  text-shadow: 1px 1px 5px black;
 }
 
 section.invert h2 {
-    color: #3498db; /* Keep highlight color consistent */
+    color: #fff;
+    border-bottom-color: #fff;
 }
 </style>
 
